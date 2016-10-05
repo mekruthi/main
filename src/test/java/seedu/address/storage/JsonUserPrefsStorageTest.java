@@ -5,9 +5,11 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
 import org.junit.rules.TemporaryFolder;
-import seedu.address.commons.exceptions.DataConversionException;
-import seedu.address.commons.util.FileUtil;
-import seedu.address.model.UserPrefs;
+
+import mekruthi.todomanager.commons.exceptions.DataConversionException;
+import mekruthi.todomanager.commons.util.FileUtil;
+import mekruthi.todomanager.model.UserPrefs;
+import mekruthi.todomanager.storage.JsonUserPrefsStorage;
 
 import java.io.File;
 import java.io.IOException;

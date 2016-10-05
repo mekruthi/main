@@ -4,8 +4,8 @@ import org.junit.Test;
 import seedu.address.testutil.TestPerson;
 import seedu.address.testutil.TestUtil;
 
+import static mekruthi.todomanager.logic.commands.DeleteCommand.MESSAGE_DELETE_PERSON_SUCCESS;
 import static org.junit.Assert.assertTrue;
-import static seedu.address.logic.commands.DeleteCommand.MESSAGE_DELETE_PERSON_SUCCESS;
 
 public class DeleteCommandTest extends AddressBookGuiTest {
 

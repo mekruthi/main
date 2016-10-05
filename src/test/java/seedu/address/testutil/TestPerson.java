@@ -1,7 +1,7 @@
 package seedu.address.testutil;
 
-import seedu.address.model.tag.UniqueTagList;
-import seedu.address.model.person.*;
+import mekruthi.todomanager.model.person.*;
+import mekruthi.todomanager.model.tag.UniqueTagList;
 
 /**
  * A mutable person object. For testing only.

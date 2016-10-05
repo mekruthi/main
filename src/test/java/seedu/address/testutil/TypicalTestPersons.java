@@ -1,8 +1,8 @@
 package seedu.address.testutil;
 
-import seedu.address.commons.exceptions.IllegalValueException;
-import seedu.address.model.AddressBook;
-import seedu.address.model.person.*;
+import mekruthi.todomanager.commons.exceptions.IllegalValueException;
+import mekruthi.todomanager.model.AddressBook;
+import mekruthi.todomanager.model.person.*;
 
 /**
  *

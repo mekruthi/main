@@ -1,33 +1,37 @@
 package seedu.address.logic;
 
 import com.google.common.eventbus.Subscribe;
+
+import mekruthi.todomanager.commons.core.EventsCenter;
+import mekruthi.todomanager.commons.events.model.AddressBookChangedEvent;
+import mekruthi.todomanager.commons.events.ui.JumpToListRequestEvent;
+import mekruthi.todomanager.commons.events.ui.ShowHelpRequestEvent;
+import mekruthi.todomanager.logic.Logic;
+import mekruthi.todomanager.logic.LogicManager;
+import mekruthi.todomanager.logic.commands.*;
+import mekruthi.todomanager.model.AddressBook;
+import mekruthi.todomanager.model.Model;
+import mekruthi.todomanager.model.ModelManager;
+import mekruthi.todomanager.model.ReadOnlyAddressBook;
+import mekruthi.todomanager.model.person.*;
+import mekruthi.todomanager.model.tag.Tag;
+import mekruthi.todomanager.model.tag.UniqueTagList;
+import mekruthi.todomanager.storage.StorageManager;
+
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.TemporaryFolder;
-import seedu.address.commons.core.EventsCenter;
-import seedu.address.logic.commands.*;
-import seedu.address.commons.events.ui.JumpToListRequestEvent;
-import seedu.address.commons.events.ui.ShowHelpRequestEvent;
-import seedu.address.commons.events.model.AddressBookChangedEvent;
-import seedu.address.model.AddressBook;
-import seedu.address.model.Model;
-import seedu.address.model.ModelManager;
-import seedu.address.model.ReadOnlyAddressBook;
-import seedu.address.model.person.*;
-import seedu.address.model.tag.Tag;
-import seedu.address.model.tag.UniqueTagList;
-import seedu.address.storage.StorageManager;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import static mekruthi.todomanager.commons.core.Messages.*;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
-import static seedu.address.commons.core.Messages.*;
 
 public class LogicManagerTest {
 

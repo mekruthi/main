@@ -1,9 +1,11 @@
 package guitests;
 
 import guitests.guihandles.PersonCardHandle;
+import mekruthi.todomanager.commons.core.Messages;
+import mekruthi.todomanager.logic.commands.AddCommand;
+
 import org.junit.Test;
-import seedu.address.logic.commands.AddCommand;
-import seedu.address.commons.core.Messages;
+
 import seedu.address.testutil.TestPerson;
 import seedu.address.testutil.TestUtil;
 
