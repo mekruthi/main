@@ -1,4 +1,4 @@
-package seedu.address.testutil;
+package mekruthi.todomanager.testutil;
 
 import mekruthi.todomanager.model.person.*;
 import mekruthi.todomanager.model.tag.UniqueTagList;
@@ -66,7 +66,7 @@ public class TestPerson implements ReadOnlyPerson {
 
     public String getAddCommand() {
         StringBuilder sb = new StringBuilder();
-        sb.append("add " + this.getName().fullName + " ");
+        sb.append("new " + this.getName().fullName + " ");
         sb.append("p/" + this.getPhone().value + " ");
         sb.append("e/" + this.getEmail().value + " ");
         sb.append("a/" + this.getAddress().value + " ");

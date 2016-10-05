@@ -6,10 +6,10 @@ import javafx.geometry.Point2D;
 import javafx.scene.Node;
 import javafx.scene.control.ListView;
 import javafx.stage.Stage;
+import mekruthi.todomanager.TestApp;
 import mekruthi.todomanager.model.person.Person;
 import mekruthi.todomanager.model.person.ReadOnlyPerson;
-import seedu.address.TestApp;
-import seedu.address.testutil.TestUtil;
+import mekruthi.todomanager.testutil.TestUtil;
 
 import java.util.List;
 import java.util.Optional;

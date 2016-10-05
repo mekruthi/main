@@ -7,8 +7,8 @@ import javafx.scene.control.TextField;
 import javafx.scene.input.KeyCode;
 import javafx.stage.Stage;
 import javafx.stage.Window;
+import mekruthi.todomanager.TestApp;
 import mekruthi.todomanager.commons.core.LogsCenter;
-import seedu.address.TestApp;
 
 import java.util.logging.Logger;
 

@@ -1,4 +1,4 @@
-package seedu.address.storage;
+package mekruthi.todomanager.storage;
 
 
 import org.junit.Rule;
@@ -12,7 +12,7 @@ import mekruthi.todomanager.model.AddressBook;
 import mekruthi.todomanager.model.ReadOnlyAddressBook;
 import mekruthi.todomanager.model.person.Person;
 import mekruthi.todomanager.storage.XmlAddressBookStorage;
-import seedu.address.testutil.TypicalTestPersons;
+import mekruthi.todomanager.testutil.TypicalTestPersons;
 
 import java.io.IOException;
 

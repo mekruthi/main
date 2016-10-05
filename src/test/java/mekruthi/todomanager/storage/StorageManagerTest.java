@@ -1,4 +1,4 @@
-package seedu.address.storage;
+package mekruthi.todomanager.storage;
 
 
 import org.junit.Before;
@@ -15,8 +15,8 @@ import mekruthi.todomanager.storage.JsonUserPrefsStorage;
 import mekruthi.todomanager.storage.Storage;
 import mekruthi.todomanager.storage.StorageManager;
 import mekruthi.todomanager.storage.XmlAddressBookStorage;
-import seedu.address.testutil.TypicalTestPersons;
-import seedu.address.testutil.EventsCollector;
+import mekruthi.todomanager.testutil.EventsCollector;
+import mekruthi.todomanager.testutil.TypicalTestPersons;
 
 import java.io.IOException;
 

@@ -1,8 +1,9 @@
 package guitests;
 
 import org.junit.Test;
-import seedu.address.testutil.TestPerson;
-import seedu.address.testutil.TestUtil;
+
+import mekruthi.todomanager.testutil.TestPerson;
+import mekruthi.todomanager.testutil.TestUtil;
 
 import static mekruthi.todomanager.logic.commands.DeleteCommand.MESSAGE_DELETE_PERSON_SUCCESS;
 import static org.junit.Assert.assertTrue;

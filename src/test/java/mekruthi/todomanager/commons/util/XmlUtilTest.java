@@ -1,4 +1,4 @@
-package seedu.address.commons.util;
+package mekruthi.todomanager.commons.util;
 
 import org.junit.Rule;
 import org.junit.Test;
@@ -8,8 +8,8 @@ import mekruthi.todomanager.commons.util.FileUtil;
 import mekruthi.todomanager.commons.util.XmlUtil;
 import mekruthi.todomanager.model.AddressBook;
 import mekruthi.todomanager.storage.XmlSerializableAddressBook;
-import seedu.address.testutil.AddressBookBuilder;
-import seedu.address.testutil.TestUtil;
+import mekruthi.todomanager.testutil.AddressBookBuilder;
+import mekruthi.todomanager.testutil.TestUtil;
 
 import javax.xml.bind.JAXBException;
 import java.io.File;

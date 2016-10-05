@@ -1,4 +1,4 @@
-package seedu.address.commons.util;
+package mekruthi.todomanager.commons.util;
 
 
 import org.junit.Rule;
@@ -6,8 +6,8 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 import mekruthi.todomanager.commons.util.FileUtil;
-import seedu.address.testutil.SerializableTestClass;
-import seedu.address.testutil.TestUtil;
+import mekruthi.todomanager.testutil.SerializableTestClass;
+import mekruthi.todomanager.testutil.TestUtil;
 
 import java.io.File;
 import java.io.IOException;

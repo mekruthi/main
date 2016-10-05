@@ -1,4 +1,4 @@
-package seedu.address.testutil;
+package mekruthi.todomanager.testutil;
 
 import mekruthi.todomanager.commons.exceptions.IllegalValueException;
 import mekruthi.todomanager.model.AddressBook;

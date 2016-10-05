@@ -1,4 +1,4 @@
-package seedu.address.testutil;
+package mekruthi.todomanager.testutil;
 
 import com.google.common.io.Files;
 import guitests.guihandles.PersonCardHandle;
@@ -10,6 +10,7 @@ import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyCodeCombination;
 import javafx.scene.input.KeyCombination;
 import junit.framework.AssertionFailedError;
+import mekruthi.todomanager.TestApp;
 import mekruthi.todomanager.commons.exceptions.IllegalValueException;
 import mekruthi.todomanager.commons.util.FileUtil;
 import mekruthi.todomanager.commons.util.XmlUtil;
@@ -21,7 +22,6 @@ import mekruthi.todomanager.storage.XmlSerializableAddressBook;
 
 import org.loadui.testfx.GuiTest;
 import org.testfx.api.FxToolkit;
-import seedu.address.TestApp;
 
 import java.io.File;
 import java.io.IOException;

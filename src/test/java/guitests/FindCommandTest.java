@@ -3,7 +3,7 @@ package guitests;
 import org.junit.Test;
 
 import mekruthi.todomanager.commons.core.Messages;
-import seedu.address.testutil.TestPerson;
+import mekruthi.todomanager.testutil.TestPerson;
 
 import static org.junit.Assert.assertTrue;
 

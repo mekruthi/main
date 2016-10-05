@@ -3,11 +3,10 @@ package guitests;
 import guitests.guihandles.PersonCardHandle;
 import mekruthi.todomanager.commons.core.Messages;
 import mekruthi.todomanager.logic.commands.AddCommand;
+import mekruthi.todomanager.testutil.TestPerson;
+import mekruthi.todomanager.testutil.TestUtil;
 
 import org.junit.Test;
-
-import seedu.address.testutil.TestPerson;
-import seedu.address.testutil.TestUtil;
 
 import static org.junit.Assert.assertTrue;
 

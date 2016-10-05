@@ -1,4 +1,4 @@
-package seedu.address.model;
+package mekruthi.todomanager.model;
 
 import javafx.collections.FXCollections;
 import mekruthi.todomanager.commons.core.UnmodifiableObservableList;
@@ -10,8 +10,8 @@ import org.junit.rules.ExpectedException;
 
 import java.util.*;
 
+import static mekruthi.todomanager.testutil.TestUtil.assertThrows;
 import static org.junit.Assert.assertSame;
-import static seedu.address.testutil.TestUtil.assertThrows;
 
 public class UnmodifiableObservableListTest {
 

@@ -1,4 +1,4 @@
-package seedu.address.testutil;
+package mekruthi.todomanager.testutil;
 
 import com.google.common.eventbus.Subscribe;
 

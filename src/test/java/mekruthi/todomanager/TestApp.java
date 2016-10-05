@@ -1,4 +1,4 @@
-package seedu.address;
+package mekruthi.todomanager;
 
 import javafx.stage.Screen;
 import javafx.stage.Stage;
@@ -8,7 +8,7 @@ import mekruthi.todomanager.commons.core.GuiSettings;
 import mekruthi.todomanager.model.ReadOnlyAddressBook;
 import mekruthi.todomanager.model.UserPrefs;
 import mekruthi.todomanager.storage.XmlSerializableAddressBook;
-import seedu.address.testutil.TestUtil;
+import mekruthi.todomanager.testutil.TestUtil;
 
 import java.util.function.Supplier;
 
