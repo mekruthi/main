@@ -81,7 +81,7 @@ public class Parser {
     }
 
     /**
-     * Parses arguments in the context of the add person command.
+     * Parses arguments in the context of the new task command.
      *
      * @param args full command args string
      * @return the prepared command
@@ -106,7 +106,7 @@ public class Parser {
     }
 
     /**
-     * Extracts the new person's tags from the add command's tag arguments string.
+     * Extracts the new task's tags from the "new" command's tag arguments string.
      * Merges duplicate tag strings.
      */
     private static Set<String> getTagsFromArgs(String tagArguments) throws IllegalValueException {
